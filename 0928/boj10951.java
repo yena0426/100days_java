@@ -7,21 +7,20 @@ public class boj10951 {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		String str;
+		StringTokenizer st;
+		int a, b;
 				
-		StringTokenizer st = new StringTokenizer(br.readLine()," ");
-				
-		while (true) {
-			if (st.hasMoreTokens() == false) {
-				break;
-			} else {
-				int a = Integer.parseInt(st.nextToken());
-				int b = Integer.parseInt(st.nextToken());
-				
-				bw.write((a+b)+"\n");
+		while ((str = br.readLine()) != null) {
+			st = new StringTokenizer(str, " ");
+			
+			a = Integer.parseInt(st.nextToken());
+			b = Integer.parseInt(st.nextToken());
+			
+			bw.write((a+b)+"\n");
 			}
-			st = new StringTokenizer(br.readLine()," ");
-		}
-			bw.flush();
+		
+			// bw.flush();
 			bw.close();
 	}
 
