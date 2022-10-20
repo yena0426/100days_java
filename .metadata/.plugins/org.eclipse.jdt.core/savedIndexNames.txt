@@ -23,4 +23,3 @@ INDEX VERSION 1.131+C:\Users\YENA\ssafy8\100days_java\.metadata\.plugins\org.ecl
 462423112.index
 2545637268.index
 3002123790.index
-3352521746.index
